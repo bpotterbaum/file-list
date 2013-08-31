@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta http-equiv="refresh" content="30; URL=http://flexmktg.com/gerome/">
+        <meta http-equiv="refresh" content="30; URL=http://flexmktg.com<?=  dirname($_SERVER['PHP_SELF']) ?>/">
         <title><?= strtoupper(str_replace('/', '', dirname($_SERVER['PHP_SELF']))) ?> DOWNLOADS</title>
         <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
         <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
